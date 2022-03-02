@@ -7,6 +7,8 @@ namespace CAT1GameDesign
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, what is your name?"); //then insert something with string name = "()";
+
+            //Comment 1
                 
         }
     }
