@@ -203,34 +203,63 @@ namespace testingforcat
             Console.Clear();
             Console.WriteLine("You win");
             Console.ReadKey(true);
-            Console.WriteLine("A wizard turned you into a whale.");
-            Console.WriteLine("Is this awesome? (Y/N)");
-                                    {
-                                                case "Y":
-                                                case "yes":
-                                                {
-                                                            Console.WriteLine("Congrats, that was a test. You have truly won a life of peace and prosperity.");
-                                                            Console.Readkey(true);
-                                                            Console.WriteLine("Lastly, don't eat strange berries. I'm sure you are already aware of the consequences.");
-                                                }
-                                                
-                                                case "N":
-                                                case "no":
-                                                {
-                                                            Console.WriteLine("You have failed, who doesn't want to be a whale?");
-                                                            Console.Readkey(true);
-                                                            Console.WriteLine("You live a life of sadness and regret, constantly thinking of swimming and freedom");
-                                                }
-                                    }
-        }        
-                                    public static void option1b2()
-        
-            {
+            Console.WriteLine("You get turned into a whale.");
+        }       
+                        
+                        
+        public static void option1b2()
+        {
+          Console.Clear();
+          Console.WriteLine("You say, “Grandma! What big ears you have!"");
+          Console.ReadKey(true);
+          Console.Clear();   
+                            
+          Console.WriteLine("\“All the better to hear you with my dear,\" Grandma replies.");
+          Console.ReadKey(true); 
+          Console.Clear(); 
+                            
+          Console.WriteLine("\“But grandma! You notice. What big eyes you have.\”");
+          Console.ReadKey(true);
+          Console.Clear();    
+                            
+          Console.WriteLine("\“All the better to see you with, my dear.\” Grandma points out.");
+          Console.ReadKey(true);
+          Console.Clear();          
+                            
+          Colsole.WriteLine("\“But grandma! What big teeth you have.\” You say with a quivering voice.");
+          Console.ReadKey(true);
+          Console.Clear();  
+                            
+          Console.WriteLine("\“All the better to eat you with, my dear!\" Grandma roars.");
+          Console.ReadKey(true);
+          Console.Clear();   
+                            
+          Console.WriteLine("You realise that the person looking up at you isn’t your grandma but a vicious, hungry wolf.");
+          Console.ReadKey(true);
+          Console.Writeline("You run as fast as you can towards the door, but the wolf leaps out at you and digs its claws into your back.");
+          Console.ReadKey(true);
+          Console.WriteLine("You scream in pain, but it’s cut short as the wolf bites your head off. (Ouch)");
+          Console.ReadKey(true);
+          Console.WriteLine("The last thing you see in the dark, wet inside of the wolf’s jaw as it swallows you whole.");
+          Console.ReadKey(true);
+          Console.Clear();  
+                            
+          Console.WriteLine("YOU'RE DEAD. You were so close yet so far… But you probably wouldn't have made it anyways.");                  
+                  
+            
 
-       
-            }        
-                                    public static void gameEnd()        
-            {
+                  
+                  
+                  
+                            
+                 
+                  
+        
+         
+        } 
+                        
+                        
+            public static void gameEnd()        {
             string playAgain;
             Console.WriteLine("play again?");
             playAgain = Console.ReadLine().ToLower();
